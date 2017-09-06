@@ -1,4 +1,4 @@
-package com.zhaoying.GaoDeLocation;
+package cordova.plugin.GaoDeLocation;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
