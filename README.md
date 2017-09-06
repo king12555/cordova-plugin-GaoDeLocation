@@ -41,7 +41,7 @@ cordova plugin ls
 cordova plugin rm cordova-plugin-GaoDeLocation
 ```
 
-#### 六，Android版本需要主要在application的时候加入高德初始化代码
+#### 六，Android版本注意需要在application的时候加入高德初始化代码
 
 SDKInitializer.initialize(getApplicationContext());
 
