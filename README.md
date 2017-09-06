@@ -9,7 +9,7 @@
 #### 二，安装插件
 
 ```
-cordova plugin add https://github.com/king12555/cordova-plugin-GaoDeLocation.git --variable API_KEY=your key
+cordova plugin add https://github.com/king12555/cordova-plugin-GaoDeLocation.git --variable API_KEY=your key（Android版本的key，因为ios版本无需用到高德的KEY）
 
 ```
 
@@ -41,6 +41,9 @@ cordova plugin ls
 cordova plugin rm cordova-plugin-GaoDeLocation
 ```
 
+#### 六，Android版本需要主要在application的时候加入高德初始化代码
+
+SDKInitializer.initialize(getApplicationContext());
 
 
 
